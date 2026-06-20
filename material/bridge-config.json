@@ -1,0 +1,5 @@
+{
+  "ocrUrl": "https://www.boyika.cn/api/feishu_workbench/plugin",
+  "ocrKey": "contact-feishu-plugin",
+  "comment": "物资助手 OCR：拍照盘点调用 plugin/material/stocktake/scan。无 Django 时可留空 ocrUrl，改用手工录入。"
+}

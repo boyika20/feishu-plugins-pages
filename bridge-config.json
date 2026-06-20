@@ -1,0 +1,22 @@
+{
+  "bridgeUrl": "",
+  "bridgeKey": "contact-feishu-plugin",
+  "useSameOrigin": false,
+  "directBitable": {
+    "baseApi": "https://base-api.w.cnooc.com.cn",
+    "materialAppToken": "baskjNBd5bgiBkHJzQWCFQBJ24e",
+    "personalToken": "",
+    "tableIds": {
+      "物资合同": "tblIfXWEkXLBF4lZ",
+      "货物清单": "tbljCwBDoBnPCBVE",
+      "领用下单": "tbllVhIVM5phRGPx",
+      "下单清单": "tblT1ufjmy7X1WUz",
+      "到货验收": "tblqPLHbU40eNtXH",
+      "入库流水": "tblGeA2WaXuvfwmL",
+      "SAP总出入库": "tbl0AdRLhyFiVlwN",
+      "库存总表": "tblpRCY8FpHs1UOv",
+      "不合格处置": "tblVmIgiXO0YeVpH"
+    }
+  },
+  "comment": "海能 Work 默认走 directBitable。部署时 patch_hnwork_bridge_config.ps1 写入 personalToken，勿提交 Git。"
+}
