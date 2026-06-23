@@ -1,23 +1,25 @@
 {
-    "bridgeUrl":  "",
-    "bridgeKey":  "contact-feishu-plugin",
-    "useSameOrigin":  true,
-    "directBitable":  {
-                          "baseApi":  "/bitable-proxy",
-                          "materialAppToken":  "baskjNBd5bgiBkHJzQWCFQBJ24e",
-                          "personalToken":  "pt-uhRTYKXy4ySW6m3POw6iQ",
-                          "tableIds":  {
-                                           "物资合同":  "tblIfXWEkXLBF4lZ",
-                                           "货物清单":  "tbljCwBDoBnPCBVE",
-                                           "领用下单":  "tbllVhIVM5phRGPx",
-                                           "下单清单":  "tblT1ufjmy7X1WUz",
-                                           "到货验收":  "tblqPLHbU40eNtXH",
-                                           "入库流水":  "tblGeA2WaXuvfwmL",
-                                           "不合格处置":  "tblVmIgiXO0YeVpH",
-                                           "SAP总出入库":  "tbl0AdRLhyFiVlwN",
-                                           "库存总表":  "tblpRCY8FpHs1UOv",
-                                           "盘点差异":  "tblouOJVBZYfABPp"
-                                       }
-                      },
-    "comment":  "hnwork: same-origin /api + /bitable-proxy"
+  "bridgeUrl": "",
+  "bridgeKey": "",
+  "useSameOrigin": false,
+  "disableNasBridge": true,
+  "directBitable": {
+    "baseApi": "https://base-api.w.cnooc.com.cn",
+    "materialAppToken": "baskjNBd5bgiBkHJzQWCFQBJ24e",
+    "materialWebUrl": "https://hnwork.w.cnooc.com.cn/base/baskjNBd5bgiBkHJzQWCFQBJ24e",
+    "personalToken": "",
+    "tableIds": {
+      "物资合同": "tblIfXWEkXLBF4lZ",
+      "货物清单": "tbljCwBDoBnPCBVE",
+      "领用下单": "tbllVhIVM5phRGPx",
+      "下单清单": "tblT1ufjmy7X1WUz",
+      "到货验收": "tblqPLHbU40eNtXH",
+      "入库流水": "tblGeA2WaXuvfwmL",
+      "不合格处置": "tblVmIgiXO0YeVpH",
+      "SAP总出入库": "tbl0AdRLhyFiVlwN",
+      "库存总表": "tblpRCY8FpHs1UOv",
+      "盘点差异": "tblouOJVBZYfABPp"
+    }
+  },
+  "comment": "Cloudflare Pages 公网备份：不含 bridgeKey / personalToken。查库存请在插件设置填写物资 pt。"
 }
